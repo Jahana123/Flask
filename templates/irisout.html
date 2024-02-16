@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% if prediction %}
+        <p>prediction: {{prediction}}</p>
+    {% endif %}
+    
+    <a href="{{url_for('index')}}">Go Back</a>
+
+{% endblock %}
+
+
+         

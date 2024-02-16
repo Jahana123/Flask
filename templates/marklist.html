@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your  marklist is here !!</h1>\
+    <br>
+    <table border="5">
+        <tr>
+            <th>subject</th>
+            <th>mark</th>
+        </tr>
+        {% for key,value in data.items() %}
+        <tr>
+            <td>{{key}}</td>
+            <td>{{value}}</td>
+        </tr>
+        {% endfor %}
+    
+    </table>
+</body>
+</html>

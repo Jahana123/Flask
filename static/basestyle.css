@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+}
+
+.navbar{
+    background-color: rgb(192, 49, 49);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: black;
+}
