@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form action="/predict" method="post">
+        <label for="mean_radius">mean radius:</label>
+        <input type="text" id="mean_radius" name="mean_radius"><br><br>
+
+        <label for="mean_texture">mean texture:</label>
+        <input type="text" id="mean_texture" name="mean_texture"><br><br>
+
+    
+        <input type="submit" value="submit">
+    </form>
+
+{% endblock %}
